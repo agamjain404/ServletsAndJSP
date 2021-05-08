@@ -44,4 +44,14 @@
   	<servlet-name>Fourth</servlet-name>
   	<url-pattern>/DemoForm</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Fifth</servlet-name>
+  	<servlet-class>com.testingApp.controller.SuccesServletForDemoForm</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Fifth</servlet-name>
+  	<url-pattern>/success</url-pattern>
+  </servlet-mapping>
 </web-app>
