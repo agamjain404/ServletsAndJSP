@@ -76,4 +76,24 @@
   	<servlet-name>Seventh</servlet-name>
   	<url-pattern>/S2</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Eighth</servlet-name>
+  	<servlet-class>com.testingApp.ProblemWithoutSessionTracking.Servlet1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Eighth</servlet-name>
+  	<url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Ninth</servlet-name>
+  	<servlet-class>com.testingApp.ProblemWithoutSessionTracking.Servlet1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Ninth</servlet-name>
+  	<url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
 </web-app>
