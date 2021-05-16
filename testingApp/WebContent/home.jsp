@@ -8,5 +8,16 @@
 </head>
 <body>
 	<h1> I am your Welcome File. </h1>
+	
+	<form action="S1" method="post">
+		N1: <input type="number" name = "n1"/>
+		<br/>
+		N2: <input type="number" name = "n2"/>
+		<br/>
+		
+		<button type = "submit">
+			OK
+		</button>
+	</form>
 </body>
 </html>

@@ -56,4 +56,24 @@
   	<servlet-name>Fifth</servlet-name>
   	<url-pattern>/success</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Sixth</servlet-name>
+  	<servlet-class>com.testingApp.Attributes.S1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Sixth</servlet-name>
+  	<url-pattern>/S1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Seventh</servlet-name>
+  	<servlet-class>com.testingApp.Attributes.S2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Seventh</servlet-name>
+  	<url-pattern>/S2</url-pattern>
+  </servlet-mapping>
 </web-app>
