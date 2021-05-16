@@ -96,4 +96,24 @@
   	<servlet-name>Ninth</servlet-name>
   	<url-pattern>/servlet2</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Tenth</servlet-name>
+  	<servlet-class>com.testingApp.ImplementingSessionTrackingUsingCookies.Servlet1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Tenth</servlet-name>
+  	<url-pattern>/servlet1usingcookies</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Eleventh</servlet-name>
+  	<servlet-class>com.testingApp.ImplementingSessionTrackingUsingCookies.Servlet2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Eleventh</servlet-name>
+  	<url-pattern>/servlet2usingcookies</url-pattern>
+  </servlet-mapping>
 </web-app>
