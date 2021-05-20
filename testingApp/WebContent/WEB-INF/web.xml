@@ -3,7 +3,7 @@
   <display-name>testingApp</display-name>
   <!-- Welcome files -->
   <welcome-file-list>
-    <welcome-file>home.jsp</welcome-file>
+    <welcome-file>signup.jsp</welcome-file>
   </welcome-file-list>
   
   <!--   Servlet Declaration -->
@@ -115,5 +115,15 @@
   <servlet-mapping>
   	<servlet-name>Eleventh</servlet-name>
   	<url-pattern>/servlet2usingcookies</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Twelve</servlet-name>
+  	<servlet-class>com.testingApp.Register.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Twelve</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
   </servlet-mapping>
 </web-app>
